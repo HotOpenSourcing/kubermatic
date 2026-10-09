@@ -5,7 +5,6 @@
 *.private.env.json
 .DS_Store
 .cover
-.env
 .idea
 .kubeconfig
 /reports
@@ -17,9 +16,10 @@ _dist
 download-gocache
 /dev.*
 .envrc
-/.vscode
 _certs
 .history
 
 # this is filled during release
 charts/kubermatic-operator/crd/k8c.io
+config.bat
+node_modules
